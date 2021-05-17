@@ -130,7 +130,7 @@ spec:
                 env:
                 - name: ANSIBLE_GATHERING
                   value: explicit
-                image: quay.io/rh-nfv-int/testpmd-operator:v0.2.4
+                image: quay.io/betordz/testpmd-operator@sha256:00092d84f3cde0b572a180da65b3ed397ea30c368966ef29cd002232567efe72
                 imagePullPolicy: IfNotPresent
                 livenessProbe:
                   httpGet:
