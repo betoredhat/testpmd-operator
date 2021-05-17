@@ -130,7 +130,7 @@ spec:
                 env:
                 - name: ANSIBLE_GATHERING
                   value: explicit
-                image: scan.connect.redhat.com/ospid-68a157d1-3be3-4cd3-8145-e885bf2ebcec/partner-build-service:v.0.2.4
+                image: quay.io/betoredhat/testpmd-operator@sha256:bc8eecdb29d62958f2406cf62f55fbf53ef7a4b0ab2d3b5f215b29f47e770a7c
                 imagePullPolicy: IfNotPresent
                 livenessProbe:
                   httpGet:
